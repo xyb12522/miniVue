@@ -15,3 +15,6 @@ vue采取数据劫持，配合观察者者模式，通过Object.defineProperty()
 4.没有实现虚拟dom，采用文档碎片（createDocumentFragment）代替
 
 5.数据只劫持了Object，数组Array没有做处理
+
+### 快速练习
+打开index.html文件即可
