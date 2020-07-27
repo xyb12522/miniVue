@@ -240,7 +240,7 @@ class Observer{
         // 在获取某个值的时候
         Object.defineProperty(obj, key, {
             enumerable: true, // 可枚举
-            configurable: false, // 可修改
+            configurable: true, // 可修改
             get(){ // 当取值的时候
                 // 订阅数据变化时，往Dev中添加观察者
                 Dep.target && dep.addSub(Dep.target);
